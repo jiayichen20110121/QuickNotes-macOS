@@ -6,6 +6,7 @@
 <img src="https://img.shields.io/badge/平台-macOS-1f80ff?logo=apple&style=flat-square">
 <img src="https://img.shields.io/badge/语言-Swift-orange?style=flat-square">
 <img src="https://img.shields.io/badge/许可-MIT-green?style=flat-square">
+</div>
 
 
 # 简介：
