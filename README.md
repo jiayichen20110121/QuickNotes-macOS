@@ -10,9 +10,9 @@
 </div>
 
 
-简介：
+# 简介：
 
-QuickNotes 是一个专为 macOS 打造的轻量级悬浮笔记工具，特点是：
+# QuickNotes 是一个专为 macOS 打造的轻量级悬浮笔记工具，特点是：
 	
 🪟 悬浮笔记窗口 —— 随时呼出、快速记录
 
@@ -26,7 +26,7 @@ QuickNotes 是一个专为 macOS 打造的轻量级悬浮笔记工具，特点�
 
 🎨 界面简洁、无打扰
 
-功能特性：
+# 功能特性：
 
 ✅ 悬浮窗口
 
@@ -46,19 +46,22 @@ QuickNotes 是一个专为 macOS 打造的轻量级悬浮笔记工具，特点�
 	所有数据本地储存为 纯文本文件
 	非常安全私密
 
-应用内截图：
+# 应用内截图：
 
 主界面
+
 <img width="909" height="627" alt="截屏2025-11-09 12 05 07" src="https://github.com/user-attachments/assets/a746bcc5-cec4-442f-a4fc-f5cd450c8ba8" />
 
 悬浮窗口
+
 <img width="401" height="510" alt="截屏2025-11-09 12 04 36" src="https://github.com/user-attachments/assets/3ab8330e-17be-4e65-affa-00a49f86991b" />
 
 可自定义快捷键
+
 <img width="905" height="623" alt="截屏2025-11-09 12 06 26" src="https://github.com/user-attachments/assets/f673392d-fb4a-49b6-b16c-1cd26dadac74" />
 
-本项目 QuickNotes-macOS 以 MIT License 开源发布
-这意味着：
+# 本项目 QuickNotes-macOS 以 MIT License 开源发布
+# 这意味着：
 
 # 你可以自由地：
 	
