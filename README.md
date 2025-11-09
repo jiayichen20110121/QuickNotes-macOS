@@ -6,8 +6,6 @@
 <img src="https://img.shields.io/badge/平台-macOS-1f80ff?logo=apple&style=flat-square">
 <img src="https://img.shields.io/badge/语言-Swift-orange?style=flat-square">
 <img src="https://img.shields.io/badge/许可-MIT-green?style=flat-square">
-<img src="https://img.shields.io/github/stars/jiayichen20110121/QuickNotes-macOS?style=flat-square">
-</div>
 
 
 # 简介：
@@ -61,7 +59,7 @@
 <img width="905" height="623" alt="截屏2025-11-09 12 06 26" src="https://github.com/user-attachments/assets/f673392d-fb4a-49b6-b16c-1cd26dadac74" />
 
 # 本项目 QuickNotes-macOS 以 MIT License 开源发布
-## 这意味着：
+## 这意味着
 
 ## 你可以自由地：
 	
