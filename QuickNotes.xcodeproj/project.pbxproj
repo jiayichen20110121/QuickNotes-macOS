@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		43903B7F2EBDA755000F25C3 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43903B7E2EBDA755000F25C3 /* PDFKit.framework */; };
+		43903BCB2EBF308A000F25C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BCA2EBF308A000F25C3 /* ContentView.swift */; };
+		43903BCD2EBF31B7000F25C3 /* FloatingNoteWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BCC2EBF31B7000F25C3 /* FloatingNoteWindow.swift */; };
+		43903BCF2EBF340A000F25C3 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BCE2EBF340A000F25C3 /* PDFKitView.swift */; };
+		43903BD12EBF3448000F25C3 /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BD02EBF3448000F25C3 /* NoteRowView.swift */; };
+		43903BD52EBF35EB000F25C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BD42EBF35EB000F25C3 /* SettingsView.swift */; };
+		43903BD72EBF362D000F25C3 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BD62EBF362D000F25C3 /* NoteDetailView.swift */; };
+		43903BD92EBF366B000F25C3 /* GlobalHotkeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BD82EBF366B000F25C3 /* GlobalHotkeyCenter.swift */; };
+		43903BDB2EBF3681000F25C3 /* KeyCaptureChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BDA2EBF3681000F25C3 /* KeyCaptureChip.swift */; };
+		43903BDD2EBF36E4000F25C3 /* MenuPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43903BDC2EBF36E4000F25C3 /* MenuPopoverView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		43903B612EBDA242000F25C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +40,16 @@
 		43903B4F2EBDA240000F25C3 /* QuickNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43903B602EBDA242000F25C3 /* QuickNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43903B6A2EBDA242000F25C3 /* QuickNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43903B7E2EBDA755000F25C3 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		43903BCA2EBF308A000F25C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43903BCC2EBF31B7000F25C3 /* FloatingNoteWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingNoteWindow.swift; sourceTree = "<group>"; };
+		43903BCE2EBF340A000F25C3 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		43903BD02EBF3448000F25C3 /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		43903BD42EBF35EB000F25C3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		43903BD62EBF362D000F25C3 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		43903BD82EBF366B000F25C3 /* GlobalHotkeyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHotkeyCenter.swift; sourceTree = "<group>"; };
+		43903BDA2EBF3681000F25C3 /* KeyCaptureChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCaptureChip.swift; sourceTree = "<group>"; };
+		43903BDC2EBF36E4000F25C3 /* MenuPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPopoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +68,11 @@
 			path = QuickNotesUITests;
 			sourceTree = "<group>";
 		};
+		43903B832EBDA7AB000F25C3 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43903B7F2EBDA755000F25C3 /* PDFKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +104,13 @@
 		43903B462EBDA240000F25C3 = {
 			isa = PBXGroup;
 			children = (
+				43903B992EBEF6EF000F25C3 /* Support */,
+				43903B802EBDA797000F25C3 /* Views */,
+				43903B832EBDA7AB000F25C3 /* Models */,
 				43903B512EBDA240000F25C3 /* QuickNotes */,
 				43903B632EBDA242000F25C3 /* QuickNotesTests */,
 				43903B6D2EBDA242000F25C3 /* QuickNotesUITests */,
+				43903B7D2EBDA755000F25C3 /* Frameworks */,
 				43903B502EBDA240000F25C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +123,37 @@
 				43903B6A2EBDA242000F25C3 /* QuickNotesUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		43903B7D2EBDA755000F25C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43903B7E2EBDA755000F25C3 /* PDFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43903B802EBDA797000F25C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43903BCA2EBF308A000F25C3 /* ContentView.swift */,
+				43903BCC2EBF31B7000F25C3 /* FloatingNoteWindow.swift */,
+				43903BCE2EBF340A000F25C3 /* PDFKitView.swift */,
+				43903BD02EBF3448000F25C3 /* NoteRowView.swift */,
+				43903BD42EBF35EB000F25C3 /* SettingsView.swift */,
+				43903BD62EBF362D000F25C3 /* NoteDetailView.swift */,
+				43903BDA2EBF3681000F25C3 /* KeyCaptureChip.swift */,
+				43903BDC2EBF36E4000F25C3 /* MenuPopoverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43903B992EBEF6EF000F25C3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				43903BD82EBF366B000F25C3 /* GlobalHotkeyCenter.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +173,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				43903B512EBDA240000F25C3 /* QuickNotes */,
+				43903B832EBDA7AB000F25C3 /* Models */,
 			);
 			name = QuickNotes;
 			packageProductDependencies = (
@@ -236,6 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43903BDD2EBF36E4000F25C3 /* MenuPopoverView.swift in Sources */,
+				43903BCF2EBF340A000F25C3 /* PDFKitView.swift in Sources */,
+				43903BD72EBF362D000F25C3 /* NoteDetailView.swift in Sources */,
+				43903BD52EBF35EB000F25C3 /* SettingsView.swift in Sources */,
+				43903BCD2EBF31B7000F25C3 /* FloatingNoteWindow.swift in Sources */,
+				43903BD92EBF366B000F25C3 /* GlobalHotkeyCenter.swift in Sources */,
+				43903BDB2EBF3681000F25C3 /* KeyCaptureChip.swift in Sources */,
+				43903BCB2EBF308A000F25C3 /* ContentView.swift in Sources */,
+				43903BD12EBF3448000F25C3 /* NoteRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
